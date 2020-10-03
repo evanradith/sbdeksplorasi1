@@ -1,0 +1,10 @@
+group: ComputerGear
+Keyboard = {
+Brand, Series, Layout, Switch
+'Akko', '3068', '60%', 'Blue'
+'Akko', '3084', 'TKL', 'Red'
+'Ducky', 'Horizon', 'TKL', 'Red'
+'Ducky', 'Shine', 'Fullsize', 'Brown'
+'Razer', 'Huntsman Elite', 'Fullsize', 'Green'
+'Razer', 'Huntsman Mini', 'TKL', 'Green'
+}
