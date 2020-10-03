@@ -8,3 +8,16 @@ Brand, Series, Layout, Switch
 'Razer', 'Huntsman Elite', 'Fullsize', 'Green'
 'Razer', 'Huntsman Mini', 'TKL', 'Green'
 }
+Mouse = {
+Brand, Series, Size, weight
+'Razer', 'Viper Ultimate', 'M', 74
+'Razer', 'Viper', 'M', 70
+'Razer', 'Viper Mini', 'S', 60
+'Logitech', 'GPRO Wireless', 'M', 80
+'Logitech', 'G102', 'S', 85
+'Cooler Master', 'MM710', 'S', 54
+'Zowie', 'FK1', 'L', 86
+'Zowie', 'FK2', 'M', 82
+'Zowie', 'S1', 'M', 92
+'Zowie', 'S2', 'S', 86
+}
