@@ -1,23 +1,37 @@
-group: ComputerGear
-Keyboard = {
-Brand, Series, Layout, Switch
-'Akko', '3068', '60%', 'Blue'
-'Akko', '3084', 'TKL', 'Red'
-'Ducky', 'Horizon', 'TKL', 'Red'
-'Ducky', 'Shine', 'Fullsize', 'Brown'
-'Razer', 'Huntsman Elite', 'Fullsize', 'Green'
-'Razer', 'Huntsman Mini', 'TKL', 'Green'
+group: Treveling
+Airport = {
+airportId, name, province
+'MDC', 'Sam Ratulangi', 'Sumatera Utara'
+'SNO', 'Kualanamu', 'Sumatera Utara'
+'SOC', 'Adi Sumarmo', 'Jawa Tengah'
+'SRG', 'Ahmad Yani', 'Jawa Tengah'
 }
-Mouse = {
-Brand, Series, Size, weight
-'Razer', 'Viper Ultimate', 'M', 74
-'Razer', 'Viper', 'M', 70
-'Razer', 'Viper Mini', 'S', 60
-'Logitech', 'GPRO Wireless', 'M', 80
-'Logitech', 'G102', 'S', 85
-'Cooler Master', 'MM710', 'S', 54
-'Zowie', 'FK1', 'L', 86
-'Zowie', 'FK2', 'M', 82
-'Zowie', 'S1', 'M', 92
-'Zowie', 'S2', 'S', 86
+Flight = {
+flightNo, flightCompany, depAirport, arrAirport
+'GI2341', 'Garuda Indonesia', 'MDC', 'SOC'
+'GI2342', 'Garuda Indonesia', 'SOC', 'MDC'
+'GI2343', 'Garuda Indonesia', 'KNO', 'SOC'
+'GI2345', 'Garuda Indonesia', 'SOC', 'KNO'
+'LA3927', 'Lion Air', 'KNO', 'SRG'
+'LA3928', 'Lion Air', 'SRG', 'KNO'
+'LA5060', 'Lion Air', 'MDC', 'SOC'
+'LA5070', 'Lion Air', 'SOC', 'MDC'
+}
+Booking = {
+ticketNo, name, sex, flightNo, seatNo
+'SNN246839', 'Nur Huda', 'M', 'GI2342', '24E'
+'SLS461739', 'Salsa Putri', 'F', 'GI2342', '15D'
+'RBU298746', 'Wildan Dharma', 'M', 'LA3928', '20B'
+'KMS278359', 'Edgar Aly', 'M', 'LA5070', '15A'
+'JMT481789', 'Rika Kusuma', 'F', 'LA5060', '7A'
+'SBT784234', 'Tasya Tamara', 'F', 'LA3928', '15C'
+}
+Seat = {
+seatNo, flightNo, class
+'24E', 'GI2342', 'Executive'
+'15D', 'GI2342', 'Business'
+'20B', 'LA3928', 'Executive'
+'15A', 'LA5070', 'Executive'
+'7A', 'LA5060', 'Business'
+'15C', 'LA3928', 'Business'
 }
